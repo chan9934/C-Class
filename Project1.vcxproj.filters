@@ -13,38 +13,80 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\NewFilter1">
+      <UniqueIdentifier>{57139b6e-ef4a-4fa9-92b7-ad7005bc3d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewFilter1">
+      <UniqueIdentifier>{20d79316-f04d-4b1f-85f0-d93b4f942bc4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Input.h">
+    <ClInclude Include="Input_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Process.h">
+    <ClInclude Include="Player_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Draw.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\NewFilter1</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\NewFilter1</Filter>
     </ClInclude>
     <ClInclude Include="Map.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Map_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Render_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Process_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Input.cpp">
+    <ClCompile Include="Input_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Process.cpp">
+    <ClCompile Include="Player_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\NewFilter1</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\NewFilter1</Filter>
     </ClCompile>
     <ClCompile Include="Map.cpp">
+      <Filter>Source Files\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Render_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Process_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maint_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
